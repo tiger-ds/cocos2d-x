@@ -22,7 +22,7 @@
 		B237645513D0C8E200180958 /* CCNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237614913D0C8E100180958 /* CCNode.cpp */; };
 		B237645613D0C8E200180958 /* CCCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237614A13D0C8E100180958 /* CCCamera.cpp */; };
 		B237645713D0C8E200180958 /* CCConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237614B13D0C8E100180958 /* CCConfiguration.cpp */; };
-		B237645813D0C8E200180958 /* CCConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B237614C13D0C8E100180958 /* CCConfiguration.h */; };
+		B237645813D0C8E200180958 /* CCConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B237614C13D0C8E100180958 /* CCConfiguration.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B237645913D0C8E200180958 /* CCDirector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237614D13D0C8E100180958 /* CCDirector.cpp */; };
 		B237645A13D0C8E200180958 /* CCDrawingPrimitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237614E13D0C8E100180958 /* CCDrawingPrimitives.cpp */; };
 		B237645B13D0C8E200180958 /* CCScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237614F13D0C8E100180958 /* CCScheduler.cpp */; };
@@ -31,99 +31,99 @@
 		B237645E13D0C8E200180958 /* CCData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615313D0C8E100180958 /* CCData.cpp */; };
 		B237645F13D0C8E200180958 /* CCGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615413D0C8E100180958 /* CCGeometry.cpp */; };
 		B237646013D0C8E200180958 /* CCNS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615513D0C8E100180958 /* CCNS.cpp */; };
-		B237646113D0C8E200180958 /* CCNS.h in Headers */ = {isa = PBXBuildFile; fileRef = B237615613D0C8E100180958 /* CCNS.h */; };
+		B237646113D0C8E200180958 /* CCNS.h in Headers */ = {isa = PBXBuildFile; fileRef = B237615613D0C8E100180958 /* CCNS.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B237646213D0C8E200180958 /* CCObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615713D0C8E100180958 /* CCObject.cpp */; };
 		B237646313D0C8E200180958 /* CCSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615813D0C8E100180958 /* CCSet.cpp */; };
 		B237646413D0C8E200180958 /* CCZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615913D0C8E100180958 /* CCZone.cpp */; };
 		B237646513D0C8E200180958 /* cocos2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615A13D0C8E100180958 /* cocos2d.cpp */; };
 		B237646613D0C8E200180958 /* CCGrabber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615C13D0C8E100180958 /* CCGrabber.cpp */; };
-		B237646713D0C8E200180958 /* CCGrabber.h in Headers */ = {isa = PBXBuildFile; fileRef = B237615D13D0C8E100180958 /* CCGrabber.h */; };
+		B237646713D0C8E200180958 /* CCGrabber.h in Headers */ = {isa = PBXBuildFile; fileRef = B237615D13D0C8E100180958 /* CCGrabber.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B237646813D0C8E200180958 /* CCGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237615E13D0C8E100180958 /* CCGrid.cpp */; };
-		B237646913D0C8E200180958 /* CCGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B237615F13D0C8E100180958 /* CCGrid.h */; };
-		B237646A13D0C8E200180958 /* CCAccelerometer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616113D0C8E100180958 /* CCAccelerometer.h */; };
-		B237646B13D0C8E200180958 /* CCAccelerometerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616213D0C8E100180958 /* CCAccelerometerDelegate.h */; };
-		B237646C13D0C8E200180958 /* CCAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616313D0C8E100180958 /* CCAction.h */; };
-		B237646D13D0C8E200180958 /* CCActionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616413D0C8E100180958 /* CCActionCamera.h */; };
-		B237646E13D0C8E200180958 /* CCActionEase.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616513D0C8E100180958 /* CCActionEase.h */; };
-		B237646F13D0C8E200180958 /* CCActionGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616613D0C8E100180958 /* CCActionGrid.h */; };
-		B237647013D0C8E200180958 /* CCActionGrid3D.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616713D0C8E100180958 /* CCActionGrid3D.h */; };
-		B237647113D0C8E200180958 /* CCActionInstant.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616813D0C8E100180958 /* CCActionInstant.h */; };
-		B237647213D0C8E200180958 /* CCActionInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616913D0C8E100180958 /* CCActionInterval.h */; };
-		B237647313D0C8E200180958 /* CCActionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616A13D0C8E100180958 /* CCActionManager.h */; };
-		B237647413D0C8E200180958 /* CCActionPageTurn3D.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616B13D0C8E100180958 /* CCActionPageTurn3D.h */; };
-		B237647513D0C8E200180958 /* CCActionProgressTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616C13D0C8E100180958 /* CCActionProgressTimer.h */; };
-		B237647613D0C8E200180958 /* CCActionTiledGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616D13D0C8E100180958 /* CCActionTiledGrid.h */; };
-		B237647713D0C8E200180958 /* CCAffineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616E13D0C8E100180958 /* CCAffineTransform.h */; };
-		B237647813D0C8E200180958 /* CCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616F13D0C8E100180958 /* CCAnimation.h */; };
-		B237647913D0C8E200180958 /* CCAnimationCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617013D0C8E100180958 /* CCAnimationCache.h */; };
-		B237647A13D0C8E200180958 /* CCApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617113D0C8E100180958 /* CCApplication.h */; };
-		B237647B13D0C8E200180958 /* CCArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617213D0C8E100180958 /* CCArray.h */; };
-		B237647C13D0C8E200180958 /* CCAtlasNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617313D0C8E100180958 /* CCAtlasNode.h */; };
-		B237647D13D0C8E200180958 /* CCAutoreleasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617413D0C8E100180958 /* CCAutoreleasePool.h */; };
-		B237647E13D0C8E200180958 /* CCCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617513D0C8E100180958 /* CCCamera.h */; };
-		B237647F13D0C8E200180958 /* ccConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617613D0C8E100180958 /* ccConfig.h */; };
-		B237648013D0C8E200180958 /* CCData.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617713D0C8E100180958 /* CCData.h */; };
-		B237648113D0C8E200180958 /* CCDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617813D0C8E100180958 /* CCDirector.h */; };
-		B237648213D0C8E200180958 /* CCDrawingPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617913D0C8E100180958 /* CCDrawingPrimitives.h */; };
-		B237648313D0C8E200180958 /* CCEGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617A13D0C8E100180958 /* CCEGLView.h */; };
-		B237648413D0C8E200180958 /* CCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617B13D0C8E100180958 /* CCGeometry.h */; };
-		B237648513D0C8E200180958 /* CCGL.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617C13D0C8E100180958 /* CCGL.h */; };
-		B237648613D0C8E200180958 /* CCIMEDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617D13D0C8E100180958 /* CCIMEDelegate.h */; };
-		B237648713D0C8E200180958 /* CCIMEDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617E13D0C8E100180958 /* CCIMEDispatcher.h */; };
-		B237648813D0C8E200180958 /* CCKeypadDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617F13D0C8E100180958 /* CCKeypadDelegate.h */; };
-		B237648913D0C8E200180958 /* CCKeypadDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618013D0C8E100180958 /* CCKeypadDispatcher.h */; };
-		B237648A13D0C8E200180958 /* CCLabelAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618113D0C8E100180958 /* CCLabelAtlas.h */; };
-		B237648B13D0C8E200180958 /* CCLabelBMFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618213D0C8E100180958 /* CCLabelBMFont.h */; };
-		B237648C13D0C8E200180958 /* CCLabelTTF.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618313D0C8E100180958 /* CCLabelTTF.h */; };
-		B237648D13D0C8E200180958 /* CCLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618413D0C8E100180958 /* CCLayer.h */; };
-		B237648E13D0C8E200180958 /* ccMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618513D0C8E100180958 /* ccMacros.h */; };
-		B237648F13D0C8E200180958 /* CCMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618613D0C8E100180958 /* CCMenu.h */; };
-		B237649013D0C8E200180958 /* CCMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618713D0C8E100180958 /* CCMenuItem.h */; };
-		B237649113D0C8E200180958 /* CCMotionStreak.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618813D0C8E100180958 /* CCMotionStreak.h */; };
-		B237649213D0C8E200180958 /* CCMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618913D0C8E100180958 /* CCMutableArray.h */; };
-		B237649313D0C8E200180958 /* CCMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618A13D0C8E100180958 /* CCMutableDictionary.h */; };
-		B237649413D0C8E200180958 /* CCNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618B13D0C8E100180958 /* CCNode.h */; };
-		B237649513D0C8E200180958 /* CCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618C13D0C8E100180958 /* CCObject.h */; };
-		B237649613D0C8E200180958 /* CCParallaxNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618D13D0C8E100180958 /* CCParallaxNode.h */; };
-		B237649713D0C8E200180958 /* CCParticleExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618E13D0C8E100180958 /* CCParticleExamples.h */; };
-		B237649813D0C8E200180958 /* CCParticleSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618F13D0C8E100180958 /* CCParticleSystem.h */; };
-		B237649913D0C8E200180958 /* CCParticleSystemPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619013D0C8E100180958 /* CCParticleSystemPoint.h */; };
-		B237649A13D0C8E200180958 /* CCParticleSystemQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619113D0C8E100180958 /* CCParticleSystemQuad.h */; };
-		B237649B13D0C8E200180958 /* CCPointExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619213D0C8E100180958 /* CCPointExtension.h */; };
-		B237649C13D0C8E200180958 /* CCProgressTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619313D0C8E100180958 /* CCProgressTimer.h */; };
-		B237649D13D0C8E200180958 /* CCProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619413D0C8E100180958 /* CCProtocols.h */; };
-		B237649E13D0C8E200180958 /* CCPVRTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619513D0C8E100180958 /* CCPVRTexture.h */; };
-		B237649F13D0C8E200180958 /* CCRenderTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619613D0C8E100180958 /* CCRenderTexture.h */; };
-		B23764A013D0C8E200180958 /* CCRibbon.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619713D0C8E100180958 /* CCRibbon.h */; };
-		B23764A113D0C8E200180958 /* CCScene.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619813D0C8E100180958 /* CCScene.h */; };
-		B23764A213D0C8E200180958 /* CCScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619913D0C8E100180958 /* CCScheduler.h */; };
-		B23764A313D0C8E200180958 /* CCScriptSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619A13D0C8E100180958 /* CCScriptSupport.h */; };
-		B23764A413D0C8E200180958 /* CCSet.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619B13D0C8E100180958 /* CCSet.h */; };
-		B23764A513D0C8E200180958 /* CCSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619C13D0C8E100180958 /* CCSprite.h */; };
-		B23764A613D0C8E200180958 /* CCSpriteBatchNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619D13D0C8E100180958 /* CCSpriteBatchNode.h */; };
-		B23764A713D0C8E200180958 /* CCSpriteFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619E13D0C8E100180958 /* CCSpriteFrame.h */; };
-		B23764A813D0C8E200180958 /* CCSpriteFrameCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619F13D0C8E100180958 /* CCSpriteFrameCache.h */; };
-		B23764A913D0C8E200180958 /* CCString.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A013D0C8E100180958 /* CCString.h */; };
-		B23764AA13D0C8E200180958 /* CCTextFieldTTF.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A113D0C8E100180958 /* CCTextFieldTTF.h */; };
-		B23764AB13D0C8E200180958 /* CCTexture2D.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A213D0C8E100180958 /* CCTexture2D.h */; };
-		B23764AC13D0C8E200180958 /* CCTextureAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A313D0C8E100180958 /* CCTextureAtlas.h */; };
-		B23764AD13D0C8E200180958 /* CCTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A413D0C8E100180958 /* CCTextureCache.h */; };
-		B23764AE13D0C8E200180958 /* CCTileMapAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A513D0C8E100180958 /* CCTileMapAtlas.h */; };
-		B23764AF13D0C8E200180958 /* CCTMXLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A613D0C8E100180958 /* CCTMXLayer.h */; };
-		B23764B013D0C8E200180958 /* CCTMXObjectGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A713D0C8E100180958 /* CCTMXObjectGroup.h */; };
-		B23764B113D0C8E200180958 /* CCTMXTiledMap.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A813D0C8E100180958 /* CCTMXTiledMap.h */; };
-		B23764B213D0C8E200180958 /* CCTMXXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A913D0C8E100180958 /* CCTMXXMLParser.h */; };
-		B23764B313D0C8E200180958 /* CCTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AA13D0C8E100180958 /* CCTouch.h */; };
-		B23764B413D0C8E200180958 /* CCTouchDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AB13D0C8E100180958 /* CCTouchDelegateProtocol.h */; };
-		B23764B513D0C8E200180958 /* CCTouchDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AC13D0C8E100180958 /* CCTouchDispatcher.h */; };
-		B23764B613D0C8E200180958 /* CCTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AD13D0C8E100180958 /* CCTransition.h */; };
-		B23764B713D0C8E200180958 /* CCTransitionPageTurn.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AE13D0C8E100180958 /* CCTransitionPageTurn.h */; };
-		B23764B813D0C8E200180958 /* CCTransitionRadial.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AF13D0C8E100180958 /* CCTransitionRadial.h */; };
-		B23764B913D0C8E200180958 /* ccTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B013D0C8E100180958 /* ccTypes.h */; };
-		B23764BA13D0C8E200180958 /* CCUserDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B113D0C8E100180958 /* CCUserDefault.h */; };
-		B23764BB13D0C8E200180958 /* CCZone.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B213D0C8E100180958 /* CCZone.h */; };
-		B23764BC13D0C8E200180958 /* cocos2d.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B313D0C8E100180958 /* cocos2d.h */; };
-		B23764BD13D0C8E200180958 /* selector_protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B413D0C8E100180958 /* selector_protocol.h */; };
+		B237646913D0C8E200180958 /* CCGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B237615F13D0C8E100180958 /* CCGrid.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B237646A13D0C8E200180958 /* CCAccelerometer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616113D0C8E100180958 /* CCAccelerometer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237646B13D0C8E200180958 /* CCAccelerometerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616213D0C8E100180958 /* CCAccelerometerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237646C13D0C8E200180958 /* CCAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616313D0C8E100180958 /* CCAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237646D13D0C8E200180958 /* CCActionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616413D0C8E100180958 /* CCActionCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237646E13D0C8E200180958 /* CCActionEase.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616513D0C8E100180958 /* CCActionEase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237646F13D0C8E200180958 /* CCActionGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616613D0C8E100180958 /* CCActionGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647013D0C8E200180958 /* CCActionGrid3D.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616713D0C8E100180958 /* CCActionGrid3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647113D0C8E200180958 /* CCActionInstant.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616813D0C8E100180958 /* CCActionInstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647213D0C8E200180958 /* CCActionInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616913D0C8E100180958 /* CCActionInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647313D0C8E200180958 /* CCActionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616A13D0C8E100180958 /* CCActionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647413D0C8E200180958 /* CCActionPageTurn3D.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616B13D0C8E100180958 /* CCActionPageTurn3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647513D0C8E200180958 /* CCActionProgressTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616C13D0C8E100180958 /* CCActionProgressTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647613D0C8E200180958 /* CCActionTiledGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616D13D0C8E100180958 /* CCActionTiledGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647713D0C8E200180958 /* CCAffineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616E13D0C8E100180958 /* CCAffineTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647813D0C8E200180958 /* CCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B237616F13D0C8E100180958 /* CCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647913D0C8E200180958 /* CCAnimationCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617013D0C8E100180958 /* CCAnimationCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647A13D0C8E200180958 /* CCApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617113D0C8E100180958 /* CCApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647B13D0C8E200180958 /* CCArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617213D0C8E100180958 /* CCArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647C13D0C8E200180958 /* CCAtlasNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617313D0C8E100180958 /* CCAtlasNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647D13D0C8E200180958 /* CCAutoreleasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617413D0C8E100180958 /* CCAutoreleasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647E13D0C8E200180958 /* CCCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617513D0C8E100180958 /* CCCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237647F13D0C8E200180958 /* ccConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617613D0C8E100180958 /* ccConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648013D0C8E200180958 /* CCData.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617713D0C8E100180958 /* CCData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648113D0C8E200180958 /* CCDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617813D0C8E100180958 /* CCDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648213D0C8E200180958 /* CCDrawingPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617913D0C8E100180958 /* CCDrawingPrimitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648313D0C8E200180958 /* CCEGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617A13D0C8E100180958 /* CCEGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648413D0C8E200180958 /* CCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617B13D0C8E100180958 /* CCGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648513D0C8E200180958 /* CCGL.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617C13D0C8E100180958 /* CCGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648613D0C8E200180958 /* CCIMEDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617D13D0C8E100180958 /* CCIMEDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648713D0C8E200180958 /* CCIMEDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617E13D0C8E100180958 /* CCIMEDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648813D0C8E200180958 /* CCKeypadDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B237617F13D0C8E100180958 /* CCKeypadDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648913D0C8E200180958 /* CCKeypadDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618013D0C8E100180958 /* CCKeypadDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648A13D0C8E200180958 /* CCLabelAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618113D0C8E100180958 /* CCLabelAtlas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648B13D0C8E200180958 /* CCLabelBMFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618213D0C8E100180958 /* CCLabelBMFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648C13D0C8E200180958 /* CCLabelTTF.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618313D0C8E100180958 /* CCLabelTTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648D13D0C8E200180958 /* CCLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618413D0C8E100180958 /* CCLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648E13D0C8E200180958 /* ccMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618513D0C8E100180958 /* ccMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237648F13D0C8E200180958 /* CCMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618613D0C8E100180958 /* CCMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649013D0C8E200180958 /* CCMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618713D0C8E100180958 /* CCMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649113D0C8E200180958 /* CCMotionStreak.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618813D0C8E100180958 /* CCMotionStreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649213D0C8E200180958 /* CCMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618913D0C8E100180958 /* CCMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649313D0C8E200180958 /* CCMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618A13D0C8E100180958 /* CCMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649413D0C8E200180958 /* CCNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618B13D0C8E100180958 /* CCNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649513D0C8E200180958 /* CCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618C13D0C8E100180958 /* CCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649613D0C8E200180958 /* CCParallaxNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618D13D0C8E100180958 /* CCParallaxNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649713D0C8E200180958 /* CCParticleExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618E13D0C8E100180958 /* CCParticleExamples.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649813D0C8E200180958 /* CCParticleSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B237618F13D0C8E100180958 /* CCParticleSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649913D0C8E200180958 /* CCParticleSystemPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619013D0C8E100180958 /* CCParticleSystemPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649A13D0C8E200180958 /* CCParticleSystemQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619113D0C8E100180958 /* CCParticleSystemQuad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649B13D0C8E200180958 /* CCPointExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619213D0C8E100180958 /* CCPointExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649C13D0C8E200180958 /* CCProgressTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619313D0C8E100180958 /* CCProgressTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649D13D0C8E200180958 /* CCProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619413D0C8E100180958 /* CCProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649E13D0C8E200180958 /* CCPVRTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619513D0C8E100180958 /* CCPVRTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237649F13D0C8E200180958 /* CCRenderTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619613D0C8E100180958 /* CCRenderTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A013D0C8E200180958 /* CCRibbon.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619713D0C8E100180958 /* CCRibbon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A113D0C8E200180958 /* CCScene.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619813D0C8E100180958 /* CCScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A213D0C8E200180958 /* CCScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619913D0C8E100180958 /* CCScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A313D0C8E200180958 /* CCScriptSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619A13D0C8E100180958 /* CCScriptSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A413D0C8E200180958 /* CCSet.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619B13D0C8E100180958 /* CCSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A513D0C8E200180958 /* CCSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619C13D0C8E100180958 /* CCSprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A613D0C8E200180958 /* CCSpriteBatchNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619D13D0C8E100180958 /* CCSpriteBatchNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A713D0C8E200180958 /* CCSpriteFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619E13D0C8E100180958 /* CCSpriteFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A813D0C8E200180958 /* CCSpriteFrameCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B237619F13D0C8E100180958 /* CCSpriteFrameCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764A913D0C8E200180958 /* CCString.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A013D0C8E100180958 /* CCString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764AA13D0C8E200180958 /* CCTextFieldTTF.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A113D0C8E100180958 /* CCTextFieldTTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764AB13D0C8E200180958 /* CCTexture2D.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A213D0C8E100180958 /* CCTexture2D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764AC13D0C8E200180958 /* CCTextureAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A313D0C8E100180958 /* CCTextureAtlas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764AD13D0C8E200180958 /* CCTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A413D0C8E100180958 /* CCTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764AE13D0C8E200180958 /* CCTileMapAtlas.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A513D0C8E100180958 /* CCTileMapAtlas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764AF13D0C8E200180958 /* CCTMXLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A613D0C8E100180958 /* CCTMXLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B013D0C8E200180958 /* CCTMXObjectGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A713D0C8E100180958 /* CCTMXObjectGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B113D0C8E200180958 /* CCTMXTiledMap.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A813D0C8E100180958 /* CCTMXTiledMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B213D0C8E200180958 /* CCTMXXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761A913D0C8E100180958 /* CCTMXXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B313D0C8E200180958 /* CCTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AA13D0C8E100180958 /* CCTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B413D0C8E200180958 /* CCTouchDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AB13D0C8E100180958 /* CCTouchDelegateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B513D0C8E200180958 /* CCTouchDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AC13D0C8E100180958 /* CCTouchDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B613D0C8E200180958 /* CCTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AD13D0C8E100180958 /* CCTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B713D0C8E200180958 /* CCTransitionPageTurn.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AE13D0C8E100180958 /* CCTransitionPageTurn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B813D0C8E200180958 /* CCTransitionRadial.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761AF13D0C8E100180958 /* CCTransitionRadial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764B913D0C8E200180958 /* ccTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B013D0C8E100180958 /* ccTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764BA13D0C8E200180958 /* CCUserDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B113D0C8E100180958 /* CCUserDefault.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764BB13D0C8E200180958 /* CCZone.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B213D0C8E100180958 /* CCZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764BC13D0C8E200180958 /* cocos2d.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B313D0C8E100180958 /* cocos2d.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23764BD13D0C8E200180958 /* selector_protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761B413D0C8E100180958 /* selector_protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23764BE13D0C8E200180958 /* CCKeypadDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761B613D0C8E100180958 /* CCKeypadDelegate.cpp */; };
 		B23764BF13D0C8E200180958 /* CCKeypadDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761B713D0C8E100180958 /* CCKeypadDispatcher.cpp */; };
 		B23764C013D0C8E200180958 /* CCLabelAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761B913D0C8E100180958 /* CCLabelAtlas.cpp */; };
@@ -144,119 +144,119 @@
 		B23764CF13D0C8E200180958 /* CCParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761CC13D0C8E100180958 /* CCParticleSystem.cpp */; };
 		B23764D013D0C8E200180958 /* CCParticleSystemPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761CD13D0C8E100180958 /* CCParticleSystemPoint.cpp */; };
 		B23764D113D0C8E200180958 /* CCParticleSystemQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761CE13D0C8E100180958 /* CCParticleSystemQuad.cpp */; };
-		B23764E613D0C8E200180958 /* CCAccelerometer_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761E613D0C8E100180958 /* CCAccelerometer_platform.h */; };
-		B23764E713D0C8E200180958 /* CCApplication_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761E713D0C8E100180958 /* CCApplication_platform.h */; };
-		B23764E813D0C8E200180958 /* CCArchOptimalParticleSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761E813D0C8E100180958 /* CCArchOptimalParticleSystem.h */; };
+		B23764E613D0C8E200180958 /* CCAccelerometer_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761E613D0C8E100180958 /* CCAccelerometer_platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764E713D0C8E200180958 /* CCApplication_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761E713D0C8E100180958 /* CCApplication_platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764E813D0C8E200180958 /* CCArchOptimalParticleSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761E813D0C8E100180958 /* CCArchOptimalParticleSystem.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764E913D0C8E200180958 /* CCCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761E913D0C8E100180958 /* CCCommon.cpp */; };
-		B23764EA13D0C8E200180958 /* CCCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761EA13D0C8E100180958 /* CCCommon.h */; };
-		B23764EB13D0C8E200180958 /* CCEGLView_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761EB13D0C8E100180958 /* CCEGLView_platform.h */; };
+		B23764EA13D0C8E200180958 /* CCCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761EA13D0C8E100180958 /* CCCommon.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764EB13D0C8E200180958 /* CCEGLView_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761EB13D0C8E100180958 /* CCEGLView_platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764EC13D0C8E200180958 /* CCFileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761EC13D0C8E100180958 /* CCFileUtils.cpp */; };
-		B23764ED13D0C8E200180958 /* CCFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761ED13D0C8E100180958 /* CCFileUtils.h */; };
+		B23764ED13D0C8E200180958 /* CCFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761ED13D0C8E100180958 /* CCFileUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764EE13D0C8E200180958 /* CCGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761EE13D0C8E100180958 /* CCGL.cpp */; };
-		B23764EF13D0C8E200180958 /* CCGL.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761EF13D0C8E100180958 /* CCGL.h */; };
+		B23764EF13D0C8E200180958 /* CCGL.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761EF13D0C8E100180958 /* CCGL.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764F013D0C8E200180958 /* CCImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761F013D0C8E100180958 /* CCImage.cpp */; };
-		B23764F113D0C8E200180958 /* CCImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F113D0C8E100180958 /* CCImage.h */; };
-		B23764F213D0C8E200180958 /* CCLibxml2.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F213D0C8E100180958 /* CCLibxml2.h */; };
-		B23764F313D0C8E200180958 /* CCPlatformConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F313D0C8E100180958 /* CCPlatformConfig.h */; };
-		B23764F413D0C8E200180958 /* CCPlatformMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F413D0C8E100180958 /* CCPlatformMacros.h */; };
+		B23764F113D0C8E200180958 /* CCImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F113D0C8E100180958 /* CCImage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764F213D0C8E200180958 /* CCLibxml2.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F213D0C8E100180958 /* CCLibxml2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764F313D0C8E200180958 /* CCPlatformConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F313D0C8E100180958 /* CCPlatformConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764F413D0C8E200180958 /* CCPlatformMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F413D0C8E100180958 /* CCPlatformMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764F513D0C8E200180958 /* CCSAXParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761F513D0C8E100180958 /* CCSAXParser.cpp */; };
-		B23764F613D0C8E200180958 /* CCSAXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F613D0C8E100180958 /* CCSAXParser.h */; };
+		B23764F613D0C8E200180958 /* CCSAXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F613D0C8E100180958 /* CCSAXParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764F713D0C8E200180958 /* CCStdC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761F713D0C8E100180958 /* CCStdC.cpp */; };
-		B23764F813D0C8E200180958 /* CCStdC.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F813D0C8E100180958 /* CCStdC.h */; };
+		B23764F813D0C8E200180958 /* CCStdC.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761F813D0C8E100180958 /* CCStdC.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B23764F913D0C8E200180958 /* CCThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23761F913D0C8E100180958 /* CCThread.cpp */; };
-		B23764FA13D0C8E200180958 /* CCThread.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761FA13D0C8E100180958 /* CCThread.h */; };
-		B23764FB13D0C8E200180958 /* AccelerometerDelegateWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761FC13D0C8E100180958 /* AccelerometerDelegateWrapper.h */; };
+		B23764FA13D0C8E200180958 /* CCThread.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761FA13D0C8E100180958 /* CCThread.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B23764FB13D0C8E200180958 /* AccelerometerDelegateWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761FC13D0C8E100180958 /* AccelerometerDelegateWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23764FC13D0C8E200180958 /* AccelerometerDelegateWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23761FD13D0C8E100180958 /* AccelerometerDelegateWrapper.mm */; };
-		B23764FD13D0C8E200180958 /* CCAccelerometer_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761FE13D0C8E100180958 /* CCAccelerometer_ios.h */; };
+		B23764FD13D0C8E200180958 /* CCAccelerometer_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B23761FE13D0C8E100180958 /* CCAccelerometer_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23764FE13D0C8E200180958 /* CCAccelerometer_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23761FF13D0C8E100180958 /* CCAccelerometer_ios.mm */; };
-		B23764FF13D0C8E200180958 /* CCApplication_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620013D0C8E100180958 /* CCApplication_ios.h */; };
+		B23764FF13D0C8E200180958 /* CCApplication_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620013D0C8E100180958 /* CCApplication_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237650013D0C8E200180958 /* CCApplication_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620113D0C8E100180958 /* CCApplication_ios.mm */; };
 		B237650113D0C8E200180958 /* CCCommon_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620213D0C8E100180958 /* CCCommon_ios.mm */; };
-		B237650213D0C8E200180958 /* CCDirectorCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620313D0C8E100180958 /* CCDirectorCaller.h */; };
+		B237650213D0C8E200180958 /* CCDirectorCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620313D0C8E100180958 /* CCDirectorCaller.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237650313D0C8E200180958 /* CCDirectorCaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620413D0C8E100180958 /* CCDirectorCaller.mm */; };
-		B237650413D0C8E200180958 /* CCEGLView_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620513D0C8E100180958 /* CCEGLView_ios.h */; };
+		B237650413D0C8E200180958 /* CCEGLView_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620513D0C8E100180958 /* CCEGLView_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237650513D0C8E200180958 /* CCEGLView_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620613D0C8E100180958 /* CCEGLView_ios.mm */; };
 		B237650613D0C8E200180958 /* CCFileUtils_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620713D0C8E100180958 /* CCFileUtils_ios.mm */; };
 		B237650713D0C8E200180958 /* CCImage_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620813D0C8E100180958 /* CCImage_ios.mm */; };
 		B237650813D0C8E200180958 /* CCLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237620913D0C8E100180958 /* CCLock.cpp */; };
-		B237650913D0C8E200180958 /* CCLock.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620A13D0C8E100180958 /* CCLock.h */; };
-		B237650A13D0C8E200180958 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620B13D0C8E100180958 /* EAGLView.h */; };
+		B237650913D0C8E200180958 /* CCLock.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620A13D0C8E100180958 /* CCLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237650A13D0C8E200180958 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620B13D0C8E100180958 /* EAGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237650B13D0C8E200180958 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B237620C13D0C8E100180958 /* EAGLView.mm */; };
-		B237650C13D0C8E200180958 /* ES1Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620D13D0C8E100180958 /* ES1Renderer.h */; };
+		B237650C13D0C8E200180958 /* ES1Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620D13D0C8E100180958 /* ES1Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237650D13D0C8E200180958 /* ES1Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B237620E13D0C8E100180958 /* ES1Renderer.m */; };
-		B237650E13D0C8E200180958 /* ESRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620F13D0C8E100180958 /* ESRenderer.h */; };
-		B237650F13D0C8E200180958 /* OpenGL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B237621013D0C8E100180958 /* OpenGL_Internal.h */; };
+		B237650E13D0C8E200180958 /* ESRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B237620F13D0C8E100180958 /* ESRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237650F13D0C8E200180958 /* OpenGL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B237621013D0C8E100180958 /* OpenGL_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237651013D0C8E200180958 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237621113D0C8E100180958 /* platform.cpp */; };
-		B237651113D0C8E200180958 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B237621213D0C8E100180958 /* platform.h */; };
-		B23765FA13D0C8E200180958 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = B237637F13D0C8E200180958 /* curl.h */; };
-		B23765FB13D0C8E200180958 /* curlbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638013D0C8E200180958 /* curlbuild.h */; };
-		B23765FC13D0C8E200180958 /* curlrules.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638113D0C8E200180958 /* curlrules.h */; };
-		B23765FD13D0C8E200180958 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638213D0C8E200180958 /* curlver.h */; };
-		B23765FE13D0C8E200180958 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638313D0C8E200180958 /* easy.h */; };
-		B23765FF13D0C8E200180958 /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638413D0C8E200180958 /* mprintf.h */; };
-		B237660013D0C8E200180958 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638513D0C8E200180958 /* multi.h */; };
-		B237660113D0C8E200180958 /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638613D0C8E200180958 /* stdcheaders.h */; };
-		B237660213D0C8E200180958 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638713D0C8E200180958 /* typecheck-gcc.h */; };
-		B237660313D0C8E200180958 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638813D0C8E200180958 /* types.h */; };
+		B237651113D0C8E200180958 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B237621213D0C8E100180958 /* platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23765FA13D0C8E200180958 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = B237637F13D0C8E200180958 /* curl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23765FB13D0C8E200180958 /* curlbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638013D0C8E200180958 /* curlbuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23765FC13D0C8E200180958 /* curlrules.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638113D0C8E200180958 /* curlrules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23765FD13D0C8E200180958 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638213D0C8E200180958 /* curlver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23765FE13D0C8E200180958 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638313D0C8E200180958 /* easy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23765FF13D0C8E200180958 /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638413D0C8E200180958 /* mprintf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237660013D0C8E200180958 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638513D0C8E200180958 /* multi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237660113D0C8E200180958 /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638613D0C8E200180958 /* stdcheaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237660213D0C8E200180958 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638713D0C8E200180958 /* typecheck-gcc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237660313D0C8E200180958 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = B237638813D0C8E200180958 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237660413D0C8E200180958 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B237638A13D0C8E200180958 /* libcurl.a */; };
-		B237660F13D0C8E200180958 /* iconv.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639813D0C8E200180958 /* iconv.h */; };
-		B237661013D0C8E200180958 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639A13D0C8E200180958 /* jconfig.h */; };
-		B237661113D0C8E200180958 /* jconfig_linux.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639B13D0C8E200180958 /* jconfig_linux.h */; };
-		B237661213D0C8E200180958 /* jconfig_win.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639C13D0C8E200180958 /* jconfig_win.h */; };
-		B237661313D0C8E200180958 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639D13D0C8E200180958 /* jerror.h */; };
-		B237661413D0C8E200180958 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639E13D0C8E200180958 /* jmorecfg.h */; };
-		B237661513D0C8E200180958 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639F13D0C8E200180958 /* jpeglib.h */; };
-		B237661613D0C8E200180958 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763A113D0C8E200180958 /* png.h */; };
-		B237661713D0C8E200180958 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763A213D0C8E200180958 /* pngconf.h */; };
-		B237662013D0C8E200180958 /* c14n.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B413D0C8E200180958 /* c14n.h */; };
-		B237662113D0C8E200180958 /* catalog.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B513D0C8E200180958 /* catalog.h */; };
-		B237662213D0C8E200180958 /* chvalid.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B613D0C8E200180958 /* chvalid.h */; };
-		B237662313D0C8E200180958 /* debugXML.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B713D0C8E200180958 /* debugXML.h */; };
-		B237662413D0C8E200180958 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B813D0C8E200180958 /* dict.h */; };
-		B237662513D0C8E200180958 /* DOCBparser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B913D0C8E200180958 /* DOCBparser.h */; };
-		B237662613D0C8E200180958 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BA13D0C8E200180958 /* encoding.h */; };
-		B237662713D0C8E200180958 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BB13D0C8E200180958 /* entities.h */; };
-		B237662813D0C8E200180958 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BC13D0C8E200180958 /* globals.h */; };
-		B237662913D0C8E200180958 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BD13D0C8E200180958 /* hash.h */; };
-		B237662A13D0C8E200180958 /* HTMLparser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BE13D0C8E200180958 /* HTMLparser.h */; };
-		B237662B13D0C8E200180958 /* HTMLtree.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BF13D0C8E200180958 /* HTMLtree.h */; };
-		B237662C13D0C8E200180958 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C013D0C8E200180958 /* list.h */; };
-		B237662D13D0C8E200180958 /* nanoftp.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C113D0C8E200180958 /* nanoftp.h */; };
-		B237662E13D0C8E200180958 /* nanohttp.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C213D0C8E200180958 /* nanohttp.h */; };
-		B237662F13D0C8E200180958 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C313D0C8E200180958 /* parser.h */; };
-		B237663013D0C8E200180958 /* parserInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C413D0C8E200180958 /* parserInternals.h */; };
-		B237663113D0C8E200180958 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C513D0C8E200180958 /* pattern.h */; };
-		B237663213D0C8E200180958 /* relaxng.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C613D0C8E200180958 /* relaxng.h */; };
-		B237663313D0C8E200180958 /* SAX.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C713D0C8E200180958 /* SAX.h */; };
-		B237663413D0C8E200180958 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C813D0C8E200180958 /* SAX2.h */; };
-		B237663513D0C8E200180958 /* schemasInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C913D0C8E200180958 /* schemasInternals.h */; };
-		B237663613D0C8E200180958 /* schematron.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CA13D0C8E200180958 /* schematron.h */; };
-		B237663713D0C8E200180958 /* threads.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CB13D0C8E200180958 /* threads.h */; };
-		B237663813D0C8E200180958 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CC13D0C8E200180958 /* tree.h */; };
-		B237663913D0C8E200180958 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CD13D0C8E200180958 /* uri.h */; };
-		B237663A13D0C8E200180958 /* valid.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CE13D0C8E200180958 /* valid.h */; };
-		B237663B13D0C8E200180958 /* xinclude.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CF13D0C8E200180958 /* xinclude.h */; };
-		B237663C13D0C8E200180958 /* xlink.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D013D0C8E200180958 /* xlink.h */; };
-		B237663D13D0C8E200180958 /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D113D0C8E200180958 /* xmlautomata.h */; };
-		B237663E13D0C8E200180958 /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D213D0C8E200180958 /* xmlerror.h */; };
-		B237663F13D0C8E200180958 /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D313D0C8E200180958 /* xmlexports.h */; };
-		B237664013D0C8E200180958 /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D413D0C8E200180958 /* xmlIO.h */; };
-		B237664113D0C8E200180958 /* xmlmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D513D0C8E200180958 /* xmlmemory.h */; };
-		B237664213D0C8E200180958 /* xmlmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D613D0C8E200180958 /* xmlmodule.h */; };
-		B237664313D0C8E200180958 /* xmlreader.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D713D0C8E200180958 /* xmlreader.h */; };
-		B237664413D0C8E200180958 /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D813D0C8E200180958 /* xmlregexp.h */; };
-		B237664513D0C8E200180958 /* xmlsave.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D913D0C8E200180958 /* xmlsave.h */; };
-		B237664613D0C8E200180958 /* xmlschemas.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DA13D0C8E200180958 /* xmlschemas.h */; };
-		B237664713D0C8E200180958 /* xmlschemastypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DB13D0C8E200180958 /* xmlschemastypes.h */; };
-		B237664813D0C8E200180958 /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DC13D0C8E200180958 /* xmlstring.h */; };
-		B237664913D0C8E200180958 /* xmlunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DD13D0C8E200180958 /* xmlunicode.h */; };
-		B237664A13D0C8E200180958 /* xmlversion.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DE13D0C8E200180958 /* xmlversion.h */; };
-		B237664B13D0C8E200180958 /* xmlwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DF13D0C8E200180958 /* xmlwriter.h */; };
-		B237664C13D0C8E200180958 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763E013D0C8E200180958 /* xpath.h */; };
-		B237664D13D0C8E200180958 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763E113D0C8E200180958 /* xpathInternals.h */; };
-		B237664E13D0C8E200180958 /* xpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763E213D0C8E200180958 /* xpointer.h */; };
-		B237665713D0C8E200180958 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763F113D0C8E200180958 /* zconf.h */; };
-		B237665813D0C8E200180958 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763F213D0C8E200180958 /* zlib.h */; };
+		B237660F13D0C8E200180958 /* iconv.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639813D0C8E200180958 /* iconv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661013D0C8E200180958 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639A13D0C8E200180958 /* jconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661113D0C8E200180958 /* jconfig_linux.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639B13D0C8E200180958 /* jconfig_linux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661213D0C8E200180958 /* jconfig_win.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639C13D0C8E200180958 /* jconfig_win.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661313D0C8E200180958 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639D13D0C8E200180958 /* jerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661413D0C8E200180958 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639E13D0C8E200180958 /* jmorecfg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661513D0C8E200180958 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = B237639F13D0C8E200180958 /* jpeglib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661613D0C8E200180958 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763A113D0C8E200180958 /* png.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237661713D0C8E200180958 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763A213D0C8E200180958 /* pngconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662013D0C8E200180958 /* c14n.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B413D0C8E200180958 /* c14n.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662113D0C8E200180958 /* catalog.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B513D0C8E200180958 /* catalog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662213D0C8E200180958 /* chvalid.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B613D0C8E200180958 /* chvalid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662313D0C8E200180958 /* debugXML.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B713D0C8E200180958 /* debugXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662413D0C8E200180958 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B813D0C8E200180958 /* dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662513D0C8E200180958 /* DOCBparser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763B913D0C8E200180958 /* DOCBparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662613D0C8E200180958 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BA13D0C8E200180958 /* encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662713D0C8E200180958 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BB13D0C8E200180958 /* entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662813D0C8E200180958 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BC13D0C8E200180958 /* globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662913D0C8E200180958 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BD13D0C8E200180958 /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662A13D0C8E200180958 /* HTMLparser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BE13D0C8E200180958 /* HTMLparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662B13D0C8E200180958 /* HTMLtree.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763BF13D0C8E200180958 /* HTMLtree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662C13D0C8E200180958 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C013D0C8E200180958 /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662D13D0C8E200180958 /* nanoftp.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C113D0C8E200180958 /* nanoftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662E13D0C8E200180958 /* nanohttp.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C213D0C8E200180958 /* nanohttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237662F13D0C8E200180958 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C313D0C8E200180958 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663013D0C8E200180958 /* parserInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C413D0C8E200180958 /* parserInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663113D0C8E200180958 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C513D0C8E200180958 /* pattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663213D0C8E200180958 /* relaxng.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C613D0C8E200180958 /* relaxng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663313D0C8E200180958 /* SAX.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C713D0C8E200180958 /* SAX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663413D0C8E200180958 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C813D0C8E200180958 /* SAX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663513D0C8E200180958 /* schemasInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763C913D0C8E200180958 /* schemasInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663613D0C8E200180958 /* schematron.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CA13D0C8E200180958 /* schematron.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663713D0C8E200180958 /* threads.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CB13D0C8E200180958 /* threads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663813D0C8E200180958 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CC13D0C8E200180958 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663913D0C8E200180958 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CD13D0C8E200180958 /* uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663A13D0C8E200180958 /* valid.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CE13D0C8E200180958 /* valid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663B13D0C8E200180958 /* xinclude.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763CF13D0C8E200180958 /* xinclude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663C13D0C8E200180958 /* xlink.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D013D0C8E200180958 /* xlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663D13D0C8E200180958 /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D113D0C8E200180958 /* xmlautomata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663E13D0C8E200180958 /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D213D0C8E200180958 /* xmlerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237663F13D0C8E200180958 /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D313D0C8E200180958 /* xmlexports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664013D0C8E200180958 /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D413D0C8E200180958 /* xmlIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664113D0C8E200180958 /* xmlmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D513D0C8E200180958 /* xmlmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664213D0C8E200180958 /* xmlmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D613D0C8E200180958 /* xmlmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664313D0C8E200180958 /* xmlreader.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D713D0C8E200180958 /* xmlreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664413D0C8E200180958 /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D813D0C8E200180958 /* xmlregexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664513D0C8E200180958 /* xmlsave.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763D913D0C8E200180958 /* xmlsave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664613D0C8E200180958 /* xmlschemas.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DA13D0C8E200180958 /* xmlschemas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664713D0C8E200180958 /* xmlschemastypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DB13D0C8E200180958 /* xmlschemastypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664813D0C8E200180958 /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DC13D0C8E200180958 /* xmlstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664913D0C8E200180958 /* xmlunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DD13D0C8E200180958 /* xmlunicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664A13D0C8E200180958 /* xmlversion.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DE13D0C8E200180958 /* xmlversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664B13D0C8E200180958 /* xmlwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763DF13D0C8E200180958 /* xmlwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664C13D0C8E200180958 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763E013D0C8E200180958 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664D13D0C8E200180958 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763E113D0C8E200180958 /* xpathInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237664E13D0C8E200180958 /* xpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763E213D0C8E200180958 /* xpointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237665713D0C8E200180958 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763F113D0C8E200180958 /* zconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237665813D0C8E200180958 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B23763F213D0C8E200180958 /* zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237666B13D0C8E200180958 /* CCScriptSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641413D0C8E200180958 /* CCScriptSupport.cpp */; };
 		B237666C13D0C8E200180958 /* CCAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641613D0C8E200180958 /* CCAnimation.cpp */; };
 		B237666D13D0C8E200180958 /* CCAnimationCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641713D0C8E200180958 /* CCAnimationCache.cpp */; };
@@ -265,27 +265,27 @@
 		B237667013D0C8E200180958 /* CCSpriteFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641A13D0C8E200180958 /* CCSpriteFrame.cpp */; };
 		B237667113D0C8E200180958 /* CCSpriteFrameCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641B13D0C8E200180958 /* CCSpriteFrameCache.cpp */; };
 		B237667213D0C8E200180958 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641D13D0C8E200180958 /* base64.cpp */; };
-		B237667313D0C8E200180958 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = B237641E13D0C8E200180958 /* base64.h */; };
+		B237667313D0C8E200180958 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = B237641E13D0C8E200180958 /* base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237667413D0C8E200180958 /* CCArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237641F13D0C8E200180958 /* CCArray.cpp */; };
 		B237667513D0C8E200180958 /* CCPointExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237642013D0C8E200180958 /* CCPointExtension.cpp */; };
 		B237667613D0C8E200180958 /* CCProfiling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237642113D0C8E200180958 /* CCProfiling.cpp */; };
-		B237667713D0C8E200180958 /* CCProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642213D0C8E200180958 /* CCProfiling.h */; };
+		B237667713D0C8E200180958 /* CCProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642213D0C8E200180958 /* CCProfiling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237667813D0C8E200180958 /* CCUserDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237642313D0C8E200180958 /* CCUserDefault.cpp */; };
 		B237667913D0C8E200180958 /* ccUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237642413D0C8E200180958 /* ccUtils.cpp */; };
-		B237667A13D0C8E200180958 /* ccUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642513D0C8E200180958 /* ccUtils.h */; };
-		B237667B13D0C8E200180958 /* ccCArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642713D0C8E200180958 /* ccCArray.h */; };
-		B237667C13D0C8E200180958 /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642813D0C8E200180958 /* uthash.h */; };
-		B237667D13D0C8E200180958 /* utlist.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642913D0C8E200180958 /* utlist.h */; };
+		B237667A13D0C8E200180958 /* ccUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642513D0C8E200180958 /* ccUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237667B13D0C8E200180958 /* ccCArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642713D0C8E200180958 /* ccCArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237667C13D0C8E200180958 /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642813D0C8E200180958 /* uthash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237667D13D0C8E200180958 /* utlist.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642913D0C8E200180958 /* utlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237667E13D0C8E200180958 /* TGAlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237642B13D0C8E200180958 /* TGAlib.cpp */; };
-		B237667F13D0C8E200180958 /* TGAlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642C13D0C8E200180958 /* TGAlib.h */; };
+		B237667F13D0C8E200180958 /* TGAlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642C13D0C8E200180958 /* TGAlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237668013D0C8E200180958 /* TransformUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237642D13D0C8E200180958 /* TransformUtils.cpp */; };
-		B237668113D0C8E200180958 /* TransformUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642E13D0C8E200180958 /* TransformUtils.h */; };
+		B237668113D0C8E200180958 /* TransformUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B237642E13D0C8E200180958 /* TransformUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237668213D0C8E200180958 /* ioapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237643013D0C8E200180958 /* ioapi.cpp */; };
-		B237668313D0C8E200180958 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B237643113D0C8E200180958 /* ioapi.h */; };
+		B237668313D0C8E200180958 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B237643113D0C8E200180958 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237668413D0C8E200180958 /* unzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237643213D0C8E200180958 /* unzip.cpp */; };
-		B237668513D0C8E200180958 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B237643313D0C8E200180958 /* unzip.h */; };
+		B237668513D0C8E200180958 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B237643313D0C8E200180958 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237668613D0C8E200180958 /* ZipUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237643413D0C8E200180958 /* ZipUtils.cpp */; };
-		B237668713D0C8E200180958 /* ZipUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B237643513D0C8E200180958 /* ZipUtils.h */; };
+		B237668713D0C8E200180958 /* ZipUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B237643513D0C8E200180958 /* ZipUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B237668813D0C8E200180958 /* CCIMEDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237643713D0C8E200180958 /* CCIMEDispatcher.cpp */; };
 		B237668913D0C8E200180958 /* CCTextFieldTTF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237643813D0C8E200180958 /* CCTextFieldTTF.cpp */; };
 		B237668A13D0C8E200180958 /* CCPVRTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237643A13D0C8E200180958 /* CCPVRTexture.cpp */; };
@@ -300,18 +300,18 @@
 		B237669313D0C8E200180958 /* CCTMXXMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237644413D0C8E200180958 /* CCTMXXMLParser.cpp */; };
 		B237669413D0C8E200180958 /* CCTouchDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237644613D0C8E200180958 /* CCTouchDispatcher.cpp */; };
 		B237669513D0C8E200180958 /* CCTouchHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B237644713D0C8E200180958 /* CCTouchHandler.cpp */; };
-		B237669613D0C8E200180958 /* CCTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B237644813D0C8E200180958 /* CCTouchHandler.h */; };
-		B23766D213D0C90000180958 /* Export.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A213D0C90000180958 /* Export.h */; };
-		B23766D313D0C90000180958 /* SimpleAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A313D0C90000180958 /* SimpleAudioEngine.h */; };
-		B23766D413D0C90000180958 /* CDAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A513D0C90000180958 /* CDAudioManager.h */; };
+		B237669613D0C8E200180958 /* CCTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B237644813D0C8E200180958 /* CCTouchHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23766D213D0C90000180958 /* Export.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A213D0C90000180958 /* Export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23766D313D0C90000180958 /* SimpleAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A313D0C90000180958 /* SimpleAudioEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23766D413D0C90000180958 /* CDAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A513D0C90000180958 /* CDAudioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23766D513D0C90000180958 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B23766A613D0C90000180958 /* CDAudioManager.m */; };
-		B23766D613D0C90000180958 /* CDConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A713D0C90000180958 /* CDConfig.h */; };
-		B23766D713D0C90000180958 /* CDOpenALSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A813D0C90000180958 /* CDOpenALSupport.h */; };
+		B23766D613D0C90000180958 /* CDConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A713D0C90000180958 /* CDConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23766D713D0C90000180958 /* CDOpenALSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766A813D0C90000180958 /* CDOpenALSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23766D813D0C90000180958 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B23766A913D0C90000180958 /* CDOpenALSupport.m */; };
-		B23766D913D0C90000180958 /* CocosDenshion.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766AA13D0C90000180958 /* CocosDenshion.h */; };
+		B23766D913D0C90000180958 /* CocosDenshion.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766AA13D0C90000180958 /* CocosDenshion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23766DA13D0C90000180958 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = B23766AB13D0C90000180958 /* CocosDenshion.m */; };
 		B23766DB13D0C90000180958 /* SimpleAudioEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23766AC13D0C90000180958 /* SimpleAudioEngine.mm */; };
-		B23766DC13D0C90000180958 /* SimpleAudioEngine_objc.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766AD13D0C90000180958 /* SimpleAudioEngine_objc.h */; };
+		B23766DC13D0C90000180958 /* SimpleAudioEngine_objc.h in Headers */ = {isa = PBXBuildFile; fileRef = B23766AD13D0C90000180958 /* SimpleAudioEngine_objc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B23766DD13D0C90000180958 /* SimpleAudioEngine_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = B23766AE13D0C90000180958 /* SimpleAudioEngine_objc.m */; };
 		B27C290113D0C81800FF99B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27C290013D0C81800FF99B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -1387,10 +1387,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B237645813D0C8E200180958 /* CCConfiguration.h in Headers */,
-				B237646113D0C8E200180958 /* CCNS.h in Headers */,
-				B237646713D0C8E200180958 /* CCGrabber.h in Headers */,
-				B237646913D0C8E200180958 /* CCGrid.h in Headers */,
 				B237646A13D0C8E200180958 /* CCAccelerometer.h in Headers */,
 				B237646B13D0C8E200180958 /* CCAccelerometerDelegate.h in Headers */,
 				B237646C13D0C8E200180958 /* CCAction.h in Headers */,
@@ -1475,20 +1471,6 @@
 				B23764BB13D0C8E200180958 /* CCZone.h in Headers */,
 				B23764BC13D0C8E200180958 /* cocos2d.h in Headers */,
 				B23764BD13D0C8E200180958 /* selector_protocol.h in Headers */,
-				B23764E613D0C8E200180958 /* CCAccelerometer_platform.h in Headers */,
-				B23764E713D0C8E200180958 /* CCApplication_platform.h in Headers */,
-				B23764E813D0C8E200180958 /* CCArchOptimalParticleSystem.h in Headers */,
-				B23764EA13D0C8E200180958 /* CCCommon.h in Headers */,
-				B23764EB13D0C8E200180958 /* CCEGLView_platform.h in Headers */,
-				B23764ED13D0C8E200180958 /* CCFileUtils.h in Headers */,
-				B23764EF13D0C8E200180958 /* CCGL.h in Headers */,
-				B23764F113D0C8E200180958 /* CCImage.h in Headers */,
-				B23764F213D0C8E200180958 /* CCLibxml2.h in Headers */,
-				B23764F313D0C8E200180958 /* CCPlatformConfig.h in Headers */,
-				B23764F413D0C8E200180958 /* CCPlatformMacros.h in Headers */,
-				B23764F613D0C8E200180958 /* CCSAXParser.h in Headers */,
-				B23764F813D0C8E200180958 /* CCStdC.h in Headers */,
-				B23764FA13D0C8E200180958 /* CCThread.h in Headers */,
 				B23764FB13D0C8E200180958 /* AccelerometerDelegateWrapper.h in Headers */,
 				B23764FD13D0C8E200180958 /* CCAccelerometer_ios.h in Headers */,
 				B23764FF13D0C8E200180958 /* CCApplication_ios.h in Headers */,
@@ -1587,6 +1569,24 @@
 				B23766D713D0C90000180958 /* CDOpenALSupport.h in Headers */,
 				B23766D913D0C90000180958 /* CocosDenshion.h in Headers */,
 				B23766DC13D0C90000180958 /* SimpleAudioEngine_objc.h in Headers */,
+				B23764E613D0C8E200180958 /* CCAccelerometer_platform.h in Headers */,
+				B23764E713D0C8E200180958 /* CCApplication_platform.h in Headers */,
+				B23764E813D0C8E200180958 /* CCArchOptimalParticleSystem.h in Headers */,
+				B23764EA13D0C8E200180958 /* CCCommon.h in Headers */,
+				B23764EB13D0C8E200180958 /* CCEGLView_platform.h in Headers */,
+				B23764ED13D0C8E200180958 /* CCFileUtils.h in Headers */,
+				B23764EF13D0C8E200180958 /* CCGL.h in Headers */,
+				B23764F113D0C8E200180958 /* CCImage.h in Headers */,
+				B23764F213D0C8E200180958 /* CCLibxml2.h in Headers */,
+				B23764F313D0C8E200180958 /* CCPlatformConfig.h in Headers */,
+				B23764F413D0C8E200180958 /* CCPlatformMacros.h in Headers */,
+				B23764F613D0C8E200180958 /* CCSAXParser.h in Headers */,
+				B23764F813D0C8E200180958 /* CCStdC.h in Headers */,
+				B23764FA13D0C8E200180958 /* CCThread.h in Headers */,
+				B237645813D0C8E200180958 /* CCConfiguration.h in Headers */,
+				B237646113D0C8E200180958 /* CCNS.h in Headers */,
+				B237646713D0C8E200180958 /* CCGrabber.h in Headers */,
+				B237646913D0C8E200180958 /* CCGrid.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1797,6 +1797,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 					CocosDenshion/,
 				);
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/cocos2dx/platform/third_party/ios/libraries\"",
@@ -1804,6 +1805,8 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -1819,6 +1822,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 					CocosDenshion/,
 				);
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/cocos2dx/platform/third_party/ios/libraries\"",
@@ -1826,6 +1830,8 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
